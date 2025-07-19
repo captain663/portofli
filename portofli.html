@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portofli.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed top-0 w-full z-50 py-4">
+
+        <div class="container mx-auto flex flex-row items-center px-4 gap-10 justify-between">
+            <a href="#" class="text-2xl font-bold text-white whitespace-nowrap">Captain Hix</a>
+            <ul class="flex flex-row space-x-7 gap-5">
+                <li><a href="#home" class="text-white hover:text-indigo-300">Home</a></li>
+                <li><a href="#about" class="text-white hover:text-indigo-300">About</a></li>
+                <li><a href="#skills" class="text-white hover:text-indigo-300">Skills</a></li>
+                <li><a href="#projects" class="text-white hover:text-indigo-300">Projects</a></li>
+                <li><a href="#certificates" class="text-white hover:text-indigo-300">Certificates</a></li>
+                <li><a href="#stats" class="text-white hover:text-indigo-300">Stats</a></li>
+                <li><a href="#contact" class="text-white hover:text-indigo-300">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="text-white"><i class="fas fa-moon"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section id="home" class="hero-section flex items-center justify-center text-center text-white relative min-h-[90vh] overflow-hidden" style="background: linear-gradient(120deg, #6366f1 0%, #0ea5e9 100%);">
+        <div class="relative z-10 w-full flex flex-col items-center justify-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 animate__animated animate__fadeInDown animate__faster" data-aos="fade-up" data-aos-delay="100">Hi, I'm Ibrahem Hossini</h1>
+            <p class="text-xl md:text-2xl mb-6 animate__animated animate__fadeInLeft animate__fast" data-aos="fade-up" data-aos-delay="300">Front-end Developer | HTML, CSS, JavaScript, React</p>
+            <p class="text-lg mb-4 animate__animated animate__fadeInRight animate__fast" data-aos="fade-up" data-aos-delay="500">Location: Cairo, Egypt</p>
+            <p class="text-lg mb-4 animate__animated animate__fadeInLeft animate__fast" data-aos="fade-up" data-aos-delay="700">Phone: 01018912052</p>
+            <p class="text-lg mb-6 animate__animated animate__fadeInRight animate__fast" data-aos="fade-up" data-aos-delay="900">Email: ibrahemhoseny@gmail.com</p>
+            <a href="#contact" class="bg-white text-indigo-700 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-indigo-600 hover:text-white transition-all duration-300 animate__animated animate__pulse animate__delay-2s animate__infinite" data-aos="zoom-in" data-aos-delay="1100">تواصل معي</a>
+        </div>
+        <!-- Animate.css CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-10" data-aos="fade-up">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <img src="prot.jpg" alt="Profile" class="rounded-full mx-auto" style="width: 300px; height: 300px; object-fit: cover;">
+                </div>
+                <div class="md:w-1/2 mt-6 md:mt-0" data-aos="fade-left">
+                    <p class="text-lg">
+                        اسمي إبراهيم حسيني، مطور واجهات أمامية بخبرة أكثر من 3 سنوات في بناء مواقع وتطبيقات ويب عصرية وسريعة الاستجابة.<br>
+                        أمتلك خبرة قوية في HTML, CSS, JavaScript، وأعمل باحترافية مع React وTailwind CSS.<br>
+                        شغوف بتعلم كل جديد في عالم البرمجة وأسعى دائمًا لتقديم أفضل تجربة مستخدم.<br><br>
+                        <b>العنوان:</b> القاهرة، مصر<br>
+                        <b>البريد الإلكتروني:</b> ibrahemhoseny@gmail.com<br>
+                        <b>الهاتف:</b> 01018912052
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-10" data-aos="fade-up">My Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="skill-card p-6 bg-white rounded-lg shadow-lg" data-aos="zoom-in">
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-code mr-2"></i>HTML & CSS</h3>
+                    <div class="progress-bar bg-gray-200 h-2 rounded-full">
+                        <div class="progress bg-indigo-600 h-full rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card p-6 bg-white rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-2"><i class="fab fa-js mr-2"></i>JavaScript</h3>
+                    <div class="progress-bar bg-gray-200 h-2 rounded-full">
+                        <div class="progress bg-indigo-600 h-full rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card p-6 bg-white rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-2"><i class="fab fa-react mr-2"></i>React</h3>
+                    <div class="progress-bar bg-gray-200 h-2 rounded-full">
+                        <div class="progress bg-indigo-600 h-full rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-10" data-aos="fade-up">My Projects</h2>
+            <div id="projects-list" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+        </div>
+        <script>
+        // جلب المشاريع من قاعدة البيانات
+        fetch('database.json')
+          .then(res => res.json())
+          .then(data => {
+            const projects = data.projects || [];
+            const container = document.getElementById('projects-list');
+            let html = projects.map((proj, i) => `
+              <div class="project-card p-6 bg-white rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="${i*100}">
+                <img src="${proj.image}" alt="${proj.title}" class="mb-4 rounded">
+                <h3 class="text-xl font-semibold mb-2">${proj.title}</h3>
+                <p>${proj.description}</p>
+                <a href="${proj.url}" class="text-indigo-600 hover:underline">View Project</a>
+              </div>
+            `).join('');
+
+            // إضافة ملفاتك من مجلد hicc (html/css/js)
+            const myFiles = [
+              {
+                name: 'portofli.html',
+                desc: 'Portfolio Website: واجهة احترافية تفاعلية بتقنيات Tailwind وAOS وAnimate.js',
+                icon: 'fa-file-code',
+                url: 'portofli.html'
+              },
+              {
+                name: 'pro.html',
+                desc: 'Landing Page: صفحة هبوط عصرية وسريعة الاستجابة مع تأثيرات CSS متقدمة',
+                icon: 'fa-file-code',
+                url: 'pro.html'
+              },
+              {
+                name: 'portofli.js',
+                desc: 'Dynamic Portfolio JS: برمجة تفاعلية للثيم والبار والنماذج مع دعم الوضع الليلي',
+                icon: 'fa-js',
+                url: 'portofli.js'
+              },
+              {
+                name: 'prot1.js',
+                desc: 'Projects Engine: سكريبت ديناميكي لعرض المشاريع من قاعدة بيانات JSON',
+                icon: 'fa-js',
+                url: 'prot1.js'
+              },
+              {
+                name: 'portofli.css',
+                desc: 'Modern CSS: أنماط متقدمة للبورتفوليو مع Responsive Design وShadow Effects',
+                icon: 'fa-css3-alt',
+                url: 'portofli.css'
+              },
+              {
+                name: 'script.js',
+                desc: 'Utility Scripts: أكواد جافاسكريبت مساعدة للأنيميشن والتنقل السلس',
+                icon: 'fa-js',
+                url: 'script.js'
+              }
+            ];
+            html += myFiles.map((file, i) => `
+              <div class="project-card p-6 bg-white rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="${(projects.length+i)*100}">
+                <div class="flex items-center justify-center mb-4 text-4xl text-indigo-500"><i class="fab ${file.icon}"></i></div>
+                <h3 class="text-xl font-semibold mb-2">${file.name}</h3>
+                <p>${file.desc}</p>
+                <a href="${file.url}" class="text-indigo-600 hover:underline" target="_blank">Open File</a>
+              </div>
+            `).join('');
+            container.innerHTML = html;
+          });
+        </script>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-10" data-aos="fade-up">Certificates</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="certificate-card p-6 bg-white rounded-lg shadow-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-2">React Developer Certification</h3>
+                    <p>Issued by: Online Learning Platform</p>
+                    <p>Date: January 2024</p>
+                </div>
+                <div class="certificate-card p-6 bg-white rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-2">Advanced JavaScript</h3>
+                    <p>Issued by: Coding Academy</p>
+                    <p>Date: June 2023</p>
+                </div>
+                <div class="certificate-card p-6 bg-white rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+                    <p>Issued by: Design Institute</p>
+                    <p>Date: March 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-10" data-aos="fade-up">My Stats</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="stat-card p-6 rounded-lg shadow-lg text-center" data-aos="zoom-in">
+                    <h3 class="text-3xl font-bold">3+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-card p-6 rounded-lg shadow-lg text-center" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="text-3xl font-bold">20+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-card p-6 rounded-lg shadow-lg text-center" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-3xl font-bold">5</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-10" data-aos="fade-up">Contact Me</h2>
+            <div class="max-w-lg mx-auto">
+                <form id="contact-form" class="space-y-4">
+                    <input type="text" placeholder="اسمك" class="w-full p-3 rounded-lg" data-aos="fade-up">
+                    <input type="email" placeholder="بريدك الإلكتروني" class="w-full p-3 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                    <textarea placeholder="رسالتك" class="w-full p-3 rounded-lg h-32" data-aos="fade-up" data-aos-delay="200"></textarea>
+                    <button type="submit" class="bg-indigo-600 px-6 py-3 rounded-full text-white hover:bg-indigo-700" data-aos="fade-up" data-aos-delay="300">إرسال</button>
+                    <div class="flex flex-row items-center justify-center gap-6 mt-8">
+                        <a href="mailto:ibrahemhoseny@gmail.com" class="flex items-center gap-2 px-5 py-3 rounded-full bg-white text-indigo-700 border-2 border-indigo-600 shadow-md hover:bg-indigo-600 hover:text-white transition-all duration-300 font-semibold text-lg">
+                            <i class="fas fa-envelope"></i>
+                            <span>راسلني على الإيميل</span>
+                        </a>
+                        <a href="https://wa.me/201018912052" target="_blank" class="flex items-center gap-2 px-5 py-3 rounded-full bg-white text-green-600 border-2 border-green-500 shadow-md hover:bg-green-500 hover:text-white transition-all duration-300 font-semibold text-lg">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>تواصل واتساب</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-800 text-white text-center">
+        <p>© 2025 إبراهيم حسيني. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="portofli.js"></script>
+</body>
+</html>

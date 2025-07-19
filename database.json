@@ -1,0 +1,75 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "description": "موقع بورتفوليو تفاعلي بتقنيات Tailwind وAOS وAnimate.js، يعرض بياناتك ومشاريعك بشكل عصري.",
+      "image": "portofli.jpg",
+      "url": "portofli.html"
+    },
+    {
+      "id": 2,
+      "title": "Landing Page (pro.html)",
+      "description": "صفحة هبوط عصرية وسريعة الاستجابة مع تأثيرات CSS متقدمة.",
+      "image": "https://via.placeholder.com/300x200",
+      "url": "pro.html"
+    },
+    {
+      "id": 3,
+      "title": "Dynamic Portfolio JS",
+      "description": "برمجة تفاعلية للثيم والبار والنماذج مع دعم الوضع الليلي.",
+      "image": "https://via.placeholder.com/300x200",
+      "url": "portofli.js"
+    },
+    {
+      "id": 4,
+      "title": "Projects Engine (prot1.js)",
+      "description": "سكريبت ديناميكي لعرض المشاريع من قاعدة بيانات JSON.",
+      "image": "https://via.placeholder.com/300x200",
+      "url": "prot1.js"
+    },
+    {
+      "id": 5,
+      "title": "Modern CSS (portofli.css)",
+      "description": "أنماط متقدمة للبورتفوليو مع Responsive Design وShadow Effects.",
+      "image": "https://via.placeholder.com/300x200",
+      "url": "portofli.css"
+    },
+    {
+      "id": 6,
+      "title": "Utility Scripts (script.js)",
+      "description": "أكواد جافاسكريبت مساعدة للأنيميشن والتنقل السلس.",
+      "image": "https://via.placeholder.com/300x200",
+      "url": "script.js"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "React Developer Certification",
+      "issuer": "Online Learning Platform",
+      "date": "January 2024"
+    },
+    {
+      "id": 2,
+      "title": "Advanced JavaScript",
+      "issuer": "Coding Academy",
+      "date": "June 2023"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Design",
+      "issuer": "Design Institute",
+      "date": "March 2023"
+    }
+  ],
+  "stats": {
+    "experience": "3+",
+    "projects": "20+",
+    "clients": "5"
+  },
+  "contact": {
+    "email": "ibrahemhoseny@gmail.com",
+    "whatsapp": "+201018912052"
+  }
+}
